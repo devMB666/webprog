@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="table-style.css">
+    <script src = "table-create.js"></script>
+    <title>Lab3</title>
+</head>
+
+<body>
+<ul style="list-style-type: none">
+    <li><button class = "mktable" onclick = "make(); toallow()">
+        Создать таблицу</button></li>
+    <li><button disabled id = 'add' onclick = "addrow()">Добавить строку</button></li>
+    <li>
+        <button disabled id = 'delete' onclick = "deleterow()">Удалить строку по номеру</button>
+        <label for = 'number'></label><input disabled id = 'number' type = "number" value = "null">
+    </li>
+</ul>
+</body>
+
+</html>
