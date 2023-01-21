@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product><id>1</id><name>Видеокарта</name><price>900</price><descr>PUPS RX222</descr></product>
+    <product><id>2</id><name>Процессор</name><price>1100</price><descr>Эльбрус 16-С</descr></product>
+    <product><id>3</id><name>Блок питания</name><price>300</price><descr>BXO 250w</descr></product>
+<product><id>4</id><name>Процессор</name><price>700</price><descr>proc</descr></product></products>

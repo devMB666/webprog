@@ -1,0 +1,78 @@
+body{
+    background: #79AB99;
+}
+h1{
+    font: bold 40px "Arial Black";
+    color: whitesmoke;
+    alignment: center;
+}
+table,td,th{
+    width: 100vh;
+    border-collapse: collapse;
+    font: 23px "sans-serif";
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+th{
+    font-weight: bold;
+}
+.prod-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font: bold 24px "Arial Black";
+    color: whitesmoke;
+}
+.items{
+    font: bold 24px "Arial Black";
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-bottom: 5%;
+}
+
+.namin{
+    min-width: 20vh;
+}
+textarea{
+    border-radius: 0px;
+    resize: none;
+}
+input{
+    border-radius: 0px;
+    border: solid 1px gray;
+}
+.prod-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 0px;
+    width: 20vh;
+    height: 10vh;
+    background: #9CBCC3;
+    color: whitesmoke;
+    margin-left: 35%;
+    margin-right:65%;
+
+}
+a{
+    text-decoration: none;
+    alignment: center;
+}
+form{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
